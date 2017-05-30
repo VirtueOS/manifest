@@ -398,6 +398,6 @@ Your sources have been sync'd successfully.
            remote="virtue" />
 
   <!-- Manifests are not standard projects. -->
-  <project path="manifest" name="manifest" remote="virtue" revision="refs/heads/virtue" />
+  <project path="manifest" name="manifest" remote="virtue" />
 
 </manifest>
