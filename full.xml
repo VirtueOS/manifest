@@ -319,8 +319,9 @@ Your sources have been sync'd successfully.
   <project path="src/third_party/wpa_supplicant"
            name="chromiumos/third_party/hostap" />
   <project path="src/third_party/portage-stable"
-           name="chromiumos/overlays/portage-stable"
-           groups="minilayout,labtools" />
+           name="portage-stable"
+           groups="minilayout,labtools"
+           remote="coreos" />
   <project path="src/third_party/chromiumos-overlay" sync-c="true"
            name="chromiumos/overlays/chromiumos-overlay"
            groups="minilayout,labtools" />
@@ -393,7 +394,11 @@ Your sources have been sync'd successfully.
            name="platform/external/libcxxabi"
            remote="aosp" />
 
+  <project path="src/private-overlays"
+           name="overlays"
+           remote="virtue" />
+
   <!-- Manifests are not standard projects. -->
-  <project path="manifest" name="chromiumos/manifest" />
+  <project path="manifest" name="manifest" remote="virtue" revision="refs/heads/virtue" />
 
 </manifest>
