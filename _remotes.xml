@@ -10,7 +10,7 @@
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com" />
   <remote  name="coreos"
-           fetch="https://github.com/coreos"
+           fetch="https://github.com/coreos" />
   <remote  name="virtue"
            fetch=".." />
 </manifest>
